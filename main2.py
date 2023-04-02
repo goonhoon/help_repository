@@ -37,7 +37,7 @@ for i in range(1, 510):
 
 
     db.add(doc)
-    db.to_disk(f"./dev/{i}.spacy")
+    db.to_disk(f"./train/{i}.spacy")
 
 
 
