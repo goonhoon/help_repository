@@ -19,7 +19,7 @@ patterns = [{"label": "Effective Date", "pattern": [
 ruler.add_patterns(patterns)
 
 
-for i in range(450, 510):
+for i in range(1, 510):
 
     text_open = open(f"inputfiles/ ({i}).txt", "r", encoding='utf8')
     text = text_open.read()
